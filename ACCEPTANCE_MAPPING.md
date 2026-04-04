@@ -3,11 +3,15 @@
 > 面向交付/验收的逐条映射。所有结论均以当前 `HWME` 代码与文档为准。
 
 ## 验收用例 1
-### 用例
-基于 Qwen2.5-VL-7B-Instruct 的多模态模型部署与评测调用能力。
+### 原始验收条目原文
+基于 ModelEngine 模型工程部署 Qwen2.5-VL-7B-Instruct 多模态大模型。
 
 ### 当前状态
 - 已完成 `vLLM` 推理链路下的模型部署与评测调用。
+
+### 对应关系说明
+- 当前仓库可直接证明的事实：`Qwen2.5-VL-7B-Instruct` 已通过 `vLLM` 后端接入评测链路并可执行最小验证。
+- 当前仓库未包含可直接识别的 ModelEngine 专用部署脚本或配置项。
 
 ### 证据文件
 - `scripts/run_full_eval.sh`（`--model vllm`，`MODEL_PATH=Qwen/Qwen2.5-VL-7B-Instruct`）
@@ -110,7 +114,7 @@ PHASE1_TASKS=ocrbench ENABLE_PHASE2=0 LIMIT=1 BATCH_SIZE=1 VLLM_TP=1 bash script
 - `README.md` 的 “GitHub 仓库地址（交付信息）”章节。
 
 ### 当前填写
-- `<GITHUB_REPO_URL>`
+- `https://github.com/Mongodiem/HWME`
 
 ### 说明
-- 尚未写入正式可访问 URL（若仓库尚未发布）。
+- 已写入正式可访问 URL。

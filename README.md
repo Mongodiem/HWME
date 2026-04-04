@@ -41,7 +41,7 @@
 
 ## 4. 快速开始（面向首次 clone）
 ```bash
-git clone <GITHUB_REPO_URL>
+git clone https://github.com/Mongodiem/HWME
 cd <repo_dir>
 bash scripts/setup_env.sh
 conda activate hwme
@@ -94,5 +94,4 @@ bash scripts/run_full_eval.sh
 详见：`DATASETS.md`
 
 ## 11. GitHub 仓库地址（交付信息）
-- 当前预留位：`<GITHUB_REPO_URL>`
-- 若已发布，请将该占位符替换为实际仓库地址。
+- 正式仓库地址：`https://github.com/Mongodiem/HWME`

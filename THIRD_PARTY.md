@@ -42,9 +42,9 @@
 以下改动属于本次交付整理结果（非上游原样）：
 - 模型入口裁剪为仅支持 `vllm`
   - 证据：`lmms_eval/models/__init__.py`
-- 交付执行脚本与最小冒烟脚本
+- 交付执行脚本与最小验证脚本
   - `scripts/run_full_eval.sh`
-  - `scripts/run_smoke_test.sh`
+  - `scripts/run_minimal_validation.sh`
   - `scripts/retry_video.sh`
   - `scripts/retry_refcoco_gpu4567.sh`
 - 交付环境与自检脚本
