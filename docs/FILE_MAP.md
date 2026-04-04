@@ -7,6 +7,7 @@
 - `CHANGELOG.md`: repository change history for traceability.
 - `FINAL_HANDOFF.md`: delivery/handoff summary for acceptance and onboarding.
 - `MAINTENANCE.md`: maintenance rules and release-update checklist.
+- `docs/GIT_HANDOFF_STATUS.md`: in-repo git handoff snapshot (points to `A_git` master record).
 - `environment.yml`: conda environment definition.
 - `.env.example`: runtime variable template.
 - `scripts/setup_env.sh`: environment bootstrap.
