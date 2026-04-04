@@ -96,3 +96,6 @@ bash scripts/run_full_eval.sh
 
 ## 11. GitHub 仓库地址（交付信息）
 - 正式仓库地址：`https://github.com/Mongodiem/HWME`
+
+## 12. 持续维护规范
+- 维护规则与发布更新清单见：`MAINTENANCE.md`

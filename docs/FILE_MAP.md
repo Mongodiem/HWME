@@ -6,6 +6,7 @@
 - `DATASETS.md`: dataset/task provenance and capability coverage.
 - `CHANGELOG.md`: repository change history for traceability.
 - `FINAL_HANDOFF.md`: delivery/handoff summary for acceptance and onboarding.
+- `MAINTENANCE.md`: maintenance rules and release-update checklist.
 - `environment.yml`: conda environment definition.
 - `.env.example`: runtime variable template.
 - `scripts/setup_env.sh`: environment bootstrap.
