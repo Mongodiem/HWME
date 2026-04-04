@@ -4,6 +4,8 @@
 - `ACCEPTANCE_MAPPING.md`: acceptance use-case to evidence/command/output mapping.
 - `THIRD_PARTY.md`: third-party source, license boundary, and local customization notes.
 - `DATASETS.md`: dataset/task provenance and capability coverage.
+- `CHANGELOG.md`: repository change history for traceability.
+- `FINAL_HANDOFF.md`: delivery/handoff summary for acceptance and onboarding.
 - `environment.yml`: conda environment definition.
 - `.env.example`: runtime variable template.
 - `scripts/setup_env.sh`: environment bootstrap.

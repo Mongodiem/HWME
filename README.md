@@ -31,6 +31,7 @@
 - 运行脚本：`scripts/run_full_eval.sh`, `scripts/run_minimal_validation.sh`
 - 环境与自检：`environment.yml`, `.env.example`, `scripts/setup_env.sh`, `scripts/check_env.sh`
 - 交付文档：`ACCEPTANCE_MAPPING.md`, `THIRD_PARTY.md`, `DATASETS.md`, `docs/*`
+  - 发布与交接：`CHANGELOG.md`, `FINAL_HANDOFF.md`
 
 ### 3.2 仓库外（使用者自行准备）
 - CUDA/GPU 资源与驱动
