@@ -1,0 +1,21 @@
+name: hwme
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - git
+  - ffmpeg
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.1
+  - pip:
+      - vllm>=0.6.0
+      - datasets>=2.19.0
+      - transformers>=4.39.2
+      - qwen-vl-utils>=0.0.14
+      - accelerate>=0.29.1
+      - -e .
