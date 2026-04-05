@@ -10,7 +10,8 @@
 - `docs/GIT_HANDOFF_STATUS.md`: in-repo git handoff snapshot（公开版，去除本机私有路径）。
 - `docs/ENVIRONMENT.md`: 环境搭建与变量说明。
 - `docs/EVAL_PIPELINE.md`: 评测调用链与输出路径规则。
-- `docs/RUN_GUIDE.md`: 交付版运行顺序（最小复现/完整评测）。
+- `docs/RUN_GUIDE.md`: 推荐运行顺序（最小复现/完整评测）。
+- `docs/RESULTS.md`: 已复现任务、主指标、对比结果与覆盖状态。
 - `docs/GPU_2_5_USAGE.md`: 本机 GPU 2/5 占卡、释放、日志命令（local note）。
 - `docs/HANDOFF.md`: 本机交接手工项与上传前检查清单（local note）。
 - `environment.yml`: conda environment definition.
