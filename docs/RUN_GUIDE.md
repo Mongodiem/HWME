@@ -4,7 +4,6 @@
 
 ## 1. 进入目录并准备环境
 ```bash
-cd <repo_root>
 conda activate hwme
 set -a; source .env; set +a
 ```
@@ -41,11 +40,5 @@ bash scripts/run_full_eval.sh
   - 图片任务：`eval_results/<RUN_ID>/image_tasks/`
   - 视频任务：`eval_results/<RUN_ID>/video_tasks/`
 
-## 6. GPU 2/5 占卡说明
-GPU 占卡、查看、释放、重占，请直接看：
-
-- `docs/GPU_2_5_USAGE.md`
-
-该文档只覆盖 GPU `2` 和 GPU `5`，并严格对应：
-
-- 本机脚本 `test.py`（路径与命令见 `docs/GPU_2_5_USAGE.md`）
+## 6. 本机补充说明
+本仓库另有本机专用补充文档（不作为公开复现主线），如需可在本地交接场景使用。

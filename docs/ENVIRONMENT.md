@@ -4,7 +4,6 @@
 推荐使用 `conda`：
 
 ```bash
-cd <repo_root>
 conda env create -f environment.yml -n hwme || conda env update -f environment.yml -n hwme
 conda activate hwme
 python -m pip install -e .

@@ -1,6 +1,6 @@
 # File Map
 
-- `README.md`: 交付目录定位、参考版本关系、最小复现入口。
+- `README.md`: 项目说明、快速开始、最小复现与输出说明。
 - `ACCEPTANCE_MAPPING.md`: acceptance use-case to evidence/command/output mapping.
 - `THIRD_PARTY.md`: third-party source, license boundary, and local customization notes.
 - `DATASETS.md`: dataset/task provenance and capability coverage.
