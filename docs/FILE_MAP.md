@@ -1,13 +1,18 @@
 # File Map
 
-- `README.md`: GitHub reproduction guide.
+- `README.md`: 交付目录定位、参考版本关系、最小复现入口。
 - `ACCEPTANCE_MAPPING.md`: acceptance use-case to evidence/command/output mapping.
 - `THIRD_PARTY.md`: third-party source, license boundary, and local customization notes.
 - `DATASETS.md`: dataset/task provenance and capability coverage.
 - `CHANGELOG.md`: repository change history for traceability.
 - `FINAL_HANDOFF.md`: delivery/handoff summary for acceptance and onboarding.
 - `MAINTENANCE.md`: maintenance rules and release-update checklist.
-- `docs/GIT_HANDOFF_STATUS.md`: in-repo git handoff snapshot (points to `A_git` master record).
+- `docs/GIT_HANDOFF_STATUS.md`: in-repo git handoff snapshot（公开版，去除本机私有路径）。
+- `docs/ENVIRONMENT.md`: 环境搭建与变量说明。
+- `docs/EVAL_PIPELINE.md`: 评测调用链与输出路径规则。
+- `docs/RUN_GUIDE.md`: 交付版运行顺序（最小复现/完整评测）。
+- `docs/GPU_2_5_USAGE.md`: 本机 GPU 2/5 占卡、释放、日志命令（local note）。
+- `docs/HANDOFF.md`: 本机交接手工项与上传前检查清单（local note）。
 - `environment.yml`: conda environment definition.
 - `.env.example`: runtime variable template.
 - `scripts/setup_env.sh`: environment bootstrap.

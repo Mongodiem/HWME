@@ -6,23 +6,67 @@ __pycache__/
 # Virtual env
 .venv/
 venv/
+env/
 
 # Local env files
 .env
 .env.local
+.env.*
+!.env.example
 
 # Caches
 .cache/
 .pytest_cache/
 .mypy_cache/
+__pycache__/
+.ipynb_checkpoints/
+**/.cache/
+huggingface/
+hf_home/
+cache_dir/
 
 # Evaluation outputs
 /eval_results/
+/logs/
+/logs_full/
+outputs/
+workspace/
 
 # Runtime logs
 *.log
+*.out
+*.err
+*.pid
+*.trace
 
 # OS/editor
 .DS_Store
 .vscode/
 .idea/
+
+# Temporary/backup
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+
+# Local databases / caches
+*.sqlite
+*.sqlite3
+*.db
+
+# Model artifacts
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# Local accidental file
+/0
+
+# local-only notes
+docs/GPU_2_5_USAGE.md
+docs/HANDOFF.md
